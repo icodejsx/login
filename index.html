@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <section id="signupSection">
+        <div class="signupForm">
+            <form action="">
+                <i class="ri-user-3-fill"></i>
+                <h1>Sign Up</h1>
+                <div class="names">
+                    <div class="frstname">
+                        <lable for="firstname">First Name</lable>
+                        <input type="text" name="firstname" required placeholder=" Enter First Name...">
+                    </div>
+                    <div class="lastname">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastname" required placeholder=" Enter Last Name...">
+                    </div>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" required placeholder="Enter Email Address...">
+                </div>
+
+                <div class="passgender">
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required placeholder="Enter Password">
+                    </div>
+                    <div class="gender">
+                        <label for="select gender">Gender:</label>
+                        <select name="" id="gender">
+                            <option value="Select Gender" disabled>Select Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="datefav">
+                    <div class="inputbox">
+                        <label for="birthday">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div class="color">
+                        <label for="favcolor">Favorite color:</label>
+                        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                    </div>
+                </div>
+
+
+
+                <div class="btn">
+                    <button type="submit">Submit </button>
+                </div>
+                <div class="text">
+                    <p>Already have an account ? <a href="login.html">Login</a> </p>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

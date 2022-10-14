@@ -1,0 +1,278 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+body{
+    background: url(https://media.istockphoto.com/photos/abstract-white-background-with-soft-3d-shapes-picture-id1386255468?k=20&m=1386255468&s=170667a&w=0&h=O9zA700XpTlxaLMbvz0-PFi-3TEJruiotvIgJE-RaQQ=);
+    background-size: cover;
+}
+
+section#signupSection{
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+ }
+.banner{
+    height:50%;
+    width:60%;
+}
+.banner img{
+    object-fit:contain;
+}
+.signupForm{
+    width:40%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.signupForm form {
+    width:100%;
+    height:100%;
+    padding:1.5rem 2.5rem;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+form > i{
+    font-size:2cm;
+    font-weight:bolder;
+    align-self:center;
+    border: 1px solid #575af5;
+    color:#575af5;
+    padding: 2rem;
+    border-radius:50%;
+    margin-top: 2rem;
+}
+
+form h1{
+    align-self: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:#575af5
+}
+
+form div{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.3rem;
+    width:100%;
+}
+.names{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-top: 3rem;
+}
+
+.datefav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width:450px;
+}
+
+.passgender{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width:450px;
+}
+.passgender .password input{
+    width:300px;
+}
+
+.passgender > div{
+    width: 49%;
+}
+.passgender .gender{
+  width: auto;
+}
+.gender select{
+    width: 140px;
+    height:39px;
+    border: 1px solid black;
+    border-radius: 8px ;
+}
+
+.names > div {
+    width:49%;
+}
+
+form input{
+    width:100%;
+    height:40px;
+    outline:none;
+    border:1px solid #000;
+    background-color: #eee;
+    color: #000;
+    border-radius: 5px;
+    padding:0 1rem;
+}
+
+form label{
+    color: #000;
+    font-size:1.1rem;
+}
+form .btn{
+    width:200px;
+    margin:2rem auto 0;
+}
+
+form .btn button{
+    width:100%;
+    padding: 14px 0;
+    font-size: 1.2rem;
+    color:#eee;
+    background-color: #575af5;
+    outline: none;
+    border:none;
+}
+form .text{
+    align-self:center;
+    font-size: 1.2rem;
+}
+
+
+
+  /* Login Page Styling */
+  .login{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
+.login .content {
+    max-width: 800px;
+    text-align: center;
+    background: #575af5;
+
+
+  }
+  .login .content h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+  }
+  .login .loginform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+  }
+
+  .login .loginform .details input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+    .login .loginform  .details button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .login .loginform .details button .btn{
+    width: 700px;
+  }
+  .login .loginform .details button:hover {
+    opacity: 0.8;
+  }
+  .login .loginform .details label{
+    font-size: 1rem;
+  }
+
+  .login .loginform .details .box{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    gap: 1rem;
+  }
+
+  .login .loginform .details .box .box{
+    width:auto;
+  }
+
+   .login .loginform .fgp{
+    margin-top: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+   }
+
+   .login .loginform .fgp a{
+    text-decoration: none;
+   }
+
+   
+
+   /* Success Page */
+   section{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
+section .content {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section .content i{
+    font-size: 8rem;
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+  }
+  section .content h2{
+    font-size: 3rem;
+  }
+  section .content button{
+    background-color: #575af5;
+    color: white;
+    margin-top: 15px;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  section .content button:hover{
+    opacity: 0.6;
+  }
